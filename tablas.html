@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        th, td {
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Jugadores y sus deportes</caption>
+        <thead>
+            <th>Nombre</th>
+            <th>Deporte</th>
+            <th>Nacionalidad</th>
+            <th>Edad</th>
+        </thead>
+        <tbody>
+            <!-- table row -->
+            <tr>
+                <td>Lebron James</td>
+                <td rowspan="2">Basket</td>
+                <td rowspan="2">Estadounidense</td>
+                <td>38 años</td>
+            </tr>
+            <tr>
+                <td>Kevin Durant</td>
+                <td>34 años</td>
+            </tr>
+            <tr>
+                <td>Leonel Messi</td>
+                <td>Fútbol</td>
+                <td>Argentina</td>
+                <td>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>dato1</td>
+                                <td>dato2</td>
+                            </tr>
+                            <tr>
+                                <td>dato3</td>
+                                <td>dato 4</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>Usain Bolt</td>
+                <td colspan="2">Running</td>
+                <td>36 años</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

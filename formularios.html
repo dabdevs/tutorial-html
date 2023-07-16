@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h4>Formulario de contacto</h4>
+    <form>
+        <div>
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text" placeholder="Escribe tu nombre">
+        </div>
+
+        <div>
+            <label for="apellido">Apellido</label>
+            <input id="apellido" type="text" name="apellido" placeholder="Escribe tu apellido">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Escribe tu correo electrónico" name="email" id="email">
+        </div>
+
+        <div>
+            <label for="mensaje"></label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
+        </div>
+
+        <div>
+            <label for="subcribirse">Subscribirse</label>
+            <input id="subcribirse" type="checkbox">
+        </div>
+
+        <div>
+            <input name="genero" type="radio" value="hombre"> Hombre 
+            <input name="genero" type="radio" value="Mujer"> Mujer
+        </div>
+
+        <div>
+            <input type="date">
+        </div>
+
+        <div>
+            <label for="ciudad">Ciudad</label>
+            <select name="ciudad" id="ciudad">
+                <option value="">Selecciona tu ciudad</option>
+                <option value="Buenos Aires">Buenos Aires</option>
+                <option value="Santiago">Santiago</option>
+                <option value="Cordoba">Córdoba</option>
+                <option value="Madrid">Madrid</option>
+                <option value="Puerto Principe">Puerto Principe</option>
+            </select>
+        </div>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
